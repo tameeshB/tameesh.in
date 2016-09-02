@@ -1,0 +1,16 @@
+#left_panel{ display: table;
+	background-color:#33267b;
+	opacity:0.8;
+	border-right: solid #000000 1px;
+	box-shadow:black 5px 0 10px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:200px;
+}
+#content{
+	width:864px;
+	border-radius:20px;
+	padding: 20px;
+}

@@ -1,0 +1,337 @@
+#l_nav
+{
+ 	 opacity:0;
+}
+#head_i
+{	
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 width:100%;
+	 height:100%;
+	 background-color:rgb(50, 35, 72);
+	 opacity:0.8 !important;
+	-webkit-box-shadow:#000000 0px 1px 10px ;
+}
+#snippet_title,#snippet_desc,#latest_snippet,
+#work_title,#work_desc,
+#gallery_header,#social_wrapper,#webpresence_head{
+	display:none;
+}
+.contact{
+
+     margin: 20px;
+     padding:5px;
+     border-radius:10px;
+     color: cornsilk;
+     cursor:pointer;
+     border-radius: 5px;
+     margin: 5px;
+     padding-top: 5px;
+     padding-right: 10px;
+     padding-bottom: 5px;
+     padding-left: 10px;
+        z-index: 2;
+     background: rgba(0, 0, 0, 0.7);
+     
+     box-shadow:#000000 0 0 5px;
+     -webkit-transition: background 0.5s,color 0.5s;  margin-left: auto;
+    margin-right: auto; 
+
+}
+#bgimg{
+ 	opacity:1;
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ 	height:100%;
+ 	width:100%;
+ 	background-image: url('pic.jpg');
+ 	background-size: cover;
+ 	background-position-x: 100%;}
+.h_name{
+ 	display:none;
+ 	opacity:1;
+}
+.name{
+ 	position:absolute;
+ 	top:40%;
+ 	left:80px;
+ 	color: #101013;
+    text-shadow: #FFFFFF 0 0 15px; 
+}
+.desc{
+ 	position:absolute;
+ 	top:50%;
+ 	left:80px;
+ 	color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.97) 0px 0px 18px;
+}
+.card{
+ 	height:100%;
+	width:100%;
+	position:absolute;
+	
+	left:0;
+}
+#card1{
+ 	background:#134246;
+	top:0;	 		
+}
+#card2{
+	background:#565246;
+	top:100%;
+	opacity:1;
+ 	background-image: url('sn.jpg');
+ 	background-size: cover;		
+}
+#card3{
+	background:#896546;
+	background-image:url('dev2.jpg');
+	background-size:cover;
+	top:200%;
+}
+#card4{
+   	background:rgba(34, 39, 32, 0.83);
+   	background-image:url('otc1.jpg');
+	background-size:cover;
+   	top:300%;
+   	color:black;
+}
+#card5{
+	background:#578246;
+	background-image:url('gbg.png');
+	background-size:cover;
+	top:400%;				
+}
+#card6{
+	background:#3a9430;
+	top:500%;		
+	background-image: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;		
+}
+ /*work card css definitions*/
+#work_wrapper{
+ 	position:absolute;
+ 	top:30%;
+ 	left:70%;
+ 	text-align:left;
+ 	width:inherit;
+}
+#work_title {
+ 	color: #41774C;
+	position: relative;
+	text-shadow: #F7BB3A 0px 0px 10px !important;
+	left: 0;
+}
+#work_desc{
+ 	color: #F7BB3A;
+	position:relative;	
+ 	left:0;
+ 	text-shadow:rgba(0, 0, 0, 0.97) 0px 0px 8px !important;
+}
+#bt3{position: relative;}
+#bt4{position: relative;}
+#snippet_wrapper{
+	position:absolute;
+	top:30%;
+	left:15%;
+	width:500px;
+}
+#snippet_title{
+	position: absolute;
+	top: 10px;
+	left:0px;
+}
+#snippet_desc{
+	position: absolute;
+	top: 70px;
+	left:0;
+
+}
+#bt1{
+	top:150px;
+
+}
+#bt2{
+ font-size: 30px;
+ height:40px !important;
+ border-radius: 13px !important;
+}
+#latest_snippet{
+     position:absolute;
+     right: 0;
+     top:0;
+     height: 100%;
+     border-left: solid 2px #1B1D1B;
+     width:30%;  
+}
+#otc_wrapper{
+	position:absolute;
+	left:70px;
+	top:15%;
+	display:inline-block;
+}
+#otc_title{
+	position:relative;
+	left:0;
+	top:0;
+	color:black;
+	text-shadow: black 0 0 10px;
+}
+#otc_desc{
+	position:relative;
+	top:70px;
+}
+#otc_list{
+	position: relative;
+	left:0px;
+	top:0px;
+
+}
+#photo{
+	font-size: 20px;
+	color:#41CBF5;
+	cursor:pointer;
+	-webkit-transition:color 0.25s;
+}
+#photo:hover{
+	color:#42F180;
+}
+hr{
+    position:relative;
+    top:70px;
+    width:55%
+}
+#webpresence_head{
+	position:relative;
+	top: 80px;
+}
+#social_wrapper
+{
+	width:94%;
+	position:relative;
+	top:90px;
+}
+#before{
+	position: absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:100%;
+}
+#after{
+	position: absolute;
+	top:15%;
+	right:0;
+	width:50%;
+	height:70%;
+	border-left: solid 3px white;
+}
+table{
+	position:absolute;
+	right:0px;
+	padding:0px;
+	cursor:pointer;
+}
+
+td{
+	height: 50px;
+}
+.first{
+	 width:50px;
+ 	background-size: 90%;
+ 	background-repeat: no-repeat;
+}
+.second{
+	color:#FFFFFF;
+	-webkit-transition:color 0.5s;
+}
+.second:hover{
+	color:#000000;
+}
+#mail_logo{
+	 background-image: url('./logos/email.png');
+}
+#fb_logo{
+	 background-image: url('./logos/fb.png');
+}
+#twitter_logo{
+	 background-image: url('./logos/twitter.png');
+}
+#insta_logo{
+	 background-image: url('./logos/insta.png');
+}
+#gplus_logo{
+	 background-image: url('./logos/gplus.png');
+}
+#linkedin_logo{
+	 background-image: url('./logos/linkedin.png');
+}
+#git_logo{
+	 background-image: url('./logos/git.png');
+}
+#gallery_header{
+	font-size:200px!important;
+	position:relative;
+	top:40%;
+	color:#2366fd;
+    text-shadow: #170d08 0 0 55px;
+}
+#slider{
+	display:none;
+	position:fixed;
+	top:60px;
+	left:100%;
+	width:100%;
+	height:100;
+	box-shadow:grey 0 0 30px;
+}
+#goback{
+	position:fixed;
+	top:0px;
+	left:0;
+	width:60px;
+	height:60px;
+	display: none;
+	background-image: url('bk2.png');
+	background-size:cover;
+	cursor:pointer;
+	border-bottom-left-radius:0px;
+/*	border-bottom-right-radius:10px;*/
+}
+#gallery_button{
+	position:relative;
+	top:400px;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000; color: #FFFFF;}
+  50% { background-color:rgba(136, 191, 73,0.7); -webkit-box-shadow: 0 0 40px #459cbd;color: #000000; }
+  100% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000color: #FFFFF; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000; color: #FFFFF;}
+  50% { background-color:rgba(136, 191, 73,0.7); -webkit-box-shadow: 0 0 40px #459cbd;color: #000000; }
+  100% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000color: #FFFFF; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000; color: #FFFFF;}
+  50% { background-color:rgba(136, 191, 73,0.7); -webkit-box-shadow: 0 0 40px #459cbd;color: #000000; }
+  100% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000color: #FFFFF; }
+}
+
+@keyframes glowing {
+  0% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000; color: #FFFFF;}
+  50% { background-color:rgba(136, 191, 73,0.7); -webkit-box-shadow: 0 0 40px #459cbd;color: #000000; }
+  100% { background-color: rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 3px #000000color: #FFFFF; }
+}
+
+#bt2{
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}

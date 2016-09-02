@@ -1,0 +1,1 @@
+<?PHP include('../index.php?main=hello-world'); ?>

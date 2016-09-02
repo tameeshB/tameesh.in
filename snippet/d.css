@@ -1,0 +1,17 @@
+#sidedates{
+	position: fixed;
+	right:0;
+	border-bottom-left-radius:10px !important;
+	border-top-left-radius:10px !important; 
+}
+#sidetags{
+	position: fixed;
+	left:0;
+	border-bottom-right-radius:10px !important;
+	border-top-right-radius:10px !important; 
+}
+#main{
+	position: absolute;
+	left:20%;
+	border-radius: 20px;
+}

@@ -1,0 +1,7 @@
+
+Hi there!<br>
+This is my first post(for non-testing purposes) on what i'm calling 'snippet',<br>
+my very own microblog that I'm building from complete scratch.<br>
+More about that soon in another post (or 'snippet' should I call it?).<br>
+`Snippet` is intended towards a frequent log of activities , thoughts, events etc.from the period of my life where I think I'll be doing things I love on a significant scale, more significant than developing has ever been!<br>
+Adios!

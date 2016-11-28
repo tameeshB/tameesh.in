@@ -187,16 +187,16 @@ They taught us C and HTML in school back then<br> and I grew a keen interest in 
 Projects</h1><hr align="left" width="60%">
 <br><br><br><br>
 <center>
-<div class="github-card" data-github="tameeshb" data-width="400" data-height="" data-theme="medium"></div>
+<div class="github-card" data-github="tameeshb" data-width="200" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <br>
 <br>
-<div class="github-card" data-github="tameeshB/anwesha" data-width="400" data-height="" data-theme="default"></div>
+<div class="github-card" data-github="tameeshB/anwesha" data-width="200" data-height="" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <br><br>
-<div class="github-card" data-github="tameeshB/EdVu" data-width="400" data-height="150" data-theme="default"></div>
+<div class="github-card" data-github="tameeshB/EdVu" data-width="200" data-height="150" data-theme="default"></div>
 <br><br>
-<div class="github-card" data-github="tameeshB/tameesh.in" data-width="400" data-height="150" data-theme="default"></div>
+<div class="github-card" data-github="tameeshB/tameesh.in" data-width="200" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 <br><br>

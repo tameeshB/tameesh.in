@@ -27,10 +27,6 @@ function scrollto(divid){
 	   	 	 		 	
 </script>
 <style>
-li,h2,p{
-	    padding-right: 30;
-}
-
 </style>
 <script>
 $(window).load(function(){
@@ -151,14 +147,16 @@ Early elementary: <a href="http://www.lilavatibaipodarschool.com/">Lilavatibai P
 </p></b>
 
 <h2>Hobbies</h2><p><b>
-Yes, there are other things I do:
+<!-- Yes, there are other things I do: -->
 <ul type="square">
 <li>Web app development (PHP, MySQL, AJAX, HTML, jQuery, CSS)</li>
-<li>Trying out algorithms with Python</li>
-<li>Robotics: Playing with code, sensors using with my Arduino !</li>
-<li><del>Open Source software Contributions!</del></li>
-<li>Photography</li>
+<li>Building cool stuff!</li>
+<li>Open Source software Contributions!</li>
+<!-- <li>Playing around with algorithms in Python</li> -->
+<li>Robotics(Arduino/RasPi)!</li>
 <li>Tech Enthusiast</li>
+<li>Photography</li>
+
 <li>Occational video editing | <a href="//www.youtube.com/c/tameeshbiswas">YouTube</a> | <a href="//www.youtube.com/user/TheFakeDudes">theFakeDudes Youtube</a></li>
 <li>I love (listening to) Music!!!</li>
 </ul>
@@ -188,7 +186,21 @@ They taught us C and HTML in school back then<br> and I grew a keen interest in 
 <br><h1 id="thirdhead">
 Projects</h1><hr align="left" width="60%">
 <br><br><br><br>
-<h2>The `projects` section is <i>being built</i> and will (possibly) <i>soon</i> be live!</h2>
+<center>
+<div class="github-card" data-github="tameeshb" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<br>
+<br>
+<div class="github-card" data-github="tameeshB/anwesha" data-width="400" data-height="" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<br><br>
+<div class="github-card" data-github="tameeshB/EdVu" data-width="400" data-height="150" data-theme="default"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<br><br>
+TEDxIITP http://tedxiitpatna.com/
+<!-- <h2>The `projects` section is <i>being built</i> and will (possibly) <i>soon</i> be live!</h2> -->
+</center>
 <br><br><br><br>
 <!--
 <h1 id="thirdhead">
@@ -210,6 +222,7 @@ Majors & Minors!</h1><hr align="left" width="60%">-->
 	  </li>-->
 </ul>
 	  </div>
+	  <br><br><br>
 	 <div id="menu_trigger" style="background:#000000;position:fixed;right:0;top:0;width:50px;height:50px"></div>
 	 <div id="menu_cl" style="background:red;position:fixed;right:0;top:0;width:50px;height:50px"></div> 
 <div class="outer"><div class="middle"><div class="inner">

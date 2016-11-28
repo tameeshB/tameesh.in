@@ -1,0 +1,1 @@
+<?PHP include('../index.php?main=i-love-this-place-first-day-at-iit-patna'); ?>

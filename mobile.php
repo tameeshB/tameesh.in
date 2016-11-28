@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap.min.css">
+	<meta name="theme-color" content="#16627a">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -37,7 +38,11 @@
   </script>
   <script>//for event handlers
   	$(window).load(function(){ var a=0;
-  		
+		var whght =$(window).height();
+  		$("#card1,#card2,#card3,#card4,#card5").height(whght);
+			var cont1var= $("#card1wrap").height();
+			var d_newtop=whght-30-cont1var;
+			$("#card1wrap").css('top',d_newtop);
 
   		$("#menuimg").click(function(){
   			if(a==0){a=1;$(this).css('background-position-x','90%');$("#navigbar").slideDown();}
@@ -122,20 +127,20 @@
   background-image: url('pic.jpg');
   background-size: cover;
   background-position-x: 50%;
-  height:100%;
+  
 }
 
 #card2{
 	background-image: url('sn.jpg');
  	background-size: cover;	
  	background-position-x: 60%;
- 	height:100%;
+ 	
 }
 #card3{
 	background-image:url('codebg2mob.jpg');
 	background-size:cover;
 		background-position-x: 50%;
-		height:100%;
+		
 		padding: 20px;
 		padding-top: 40px !important;
 }
@@ -144,13 +149,13 @@
 	background-size:cover;
 	color:black;
 	background-position-x: 50%;
-	height:100%;
+	
 }
 #card5{
 	background-image:url('gbg.png');
 	background-size:cover;
 	background-position-x: 26.5%;
-	height:100%;
+	
 }
 #card6{
 	background-image: url('bg2.jpg');
@@ -164,7 +169,7 @@
 
 #card1wrap{
   position: absolute;
-  bottom: 0;
+  
   padding: 10px;
 }
 .name{
@@ -176,7 +181,7 @@
 .desc{
  	color: #000000;
  	font-size: 25px;
-    text-shadow: rgba(231, 152, 38, 0.97) 0px 0px 30px;
+    text-shadow: #FFFFFF 0px 0px 7px;
 }
 #btn2{
  
@@ -390,7 +395,11 @@ td{
 <div id="card1" class="container-fluid" style="height:100%">
 <div id="card1wrap">
   <h1 class="name"><i>Tameesh Biswas</i></h1>
-  <h3 class="desc">Computer Science, Programming and physics lover ♥ </h3><center>
+  <div class="desc">
+						 <h5>Web Developer at <strong style="color:#a4f994"><i>Anwesha,IIT Patna</i></strong>
+						 <br>Freshman year Computer Science & Engineering student at <strong style="color:#a4f994"><i>IIT Patna</i></strong>
+						 <br>Programming, Computer Science and Physics lover &hearts;</h5>
+	  	   	 	 </div><center>
  	<button id="btn2" class="buttonwa" onclick="call_slider('./about/index.php')">Know more</button>
  	<!--<img src="dwn.png">-->
  	 </center> </div>
@@ -423,7 +432,7 @@ td{
 	  		<h4 id="otc_desc" ></h4>
 	  		<h2 id="otc_list" style="font-size:20px;color:#000000">
 	  			<ul type="circle">
-	  				<li>Photography  <a id="photo" onclick="call_slider('./gallery/index.php')">&nbsp;|&nbsp; View my Photography portfolio</a></li>
+	  				<li>Photography  <a id="photo" onclick="call_slider('http://instagram.com/tameeshbiswas')">&nbsp;|&nbsp; View my Photography portfolio</a></li>
 	  				<li>Cycling</li>
 	  				<li>Badminton</li>
 	  				<li>Listening to music!</li>
@@ -445,13 +454,15 @@ td{
 				<h1 id="webpresence_head" style="font-size:50px;border-bottom:1px white solid">Web Presence</h1><br>
 	  			<table width="70%" border="0">
 	  			<tr id="first" onclick="goto('mailto:me@tameesh.in')"><td class="first" id="mail_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;me@tameesh.in</td></tr>
-	  			<tr id="second" onclick="goto('//facebook.com/tameesh.biswas')"><td class="first" id="fb_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;\tameesh.biswas</td></tr>
+	  			<tr id="sixth" onclick="goto('https://www.linkedin.com/in/tameeshB')"><td class="first" id="linkedin_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;/in/tameeeshB</td></tr>
+	  			<tr id="seventh" onclick="goto('https://github.com/tameeshB')"><td class="first" id="git_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshB</td></tr>
+					<tr id="second" onclick="goto('//facebook.com/tameeshB')"><td class="first" id="fb_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;\tameeshB</td></tr>
+					<tr id="fourth" onclick="goto('//instagram.com/tameeshbiswas')"><td class="first" id="insta_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshbiswas</td></tr>
 	  			<tr id="third" onclick="goto('//twitter.com/tameeshB')"><td class="first" id="twitter_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshB</td></tr>
-	  			<tr id="fourth" onclick="goto('//instagram.com/tameeshbiswas')"><td class="first" id="insta_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshbiswas</td></tr>
-	  			<tr id="fifth" onclick="goto('//plus.google.com/+TameeshBiswas')"><td class="first" id="gplus_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;+TameeshBiswas</td></tr>
-	  			<tr id="sixth" onclick="goto('https://www.linkedin.com/in/tameesh-biswas-44179659')"><td class="first" id="linkedin_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;in/tameesh-biswas-44179659</td></tr>
-	  			<tr id="seventh"><td class="first" id="git_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshbiswas</td></tr>
+					<tr id="fifth" onclick="goto('//plus.google.com/+TameeshBiswas')"><td class="first" id="gplus_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;+TameeshBiswas</td></tr>
+	  			
 	  			</table>
+
 	  		</div>
 	  		<div id="after">
 	  <!--a simple comment on my code using my new keyboard-->

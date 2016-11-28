@@ -4,6 +4,11 @@
 <html>
 	 <head>
 	 <title>Tameesh Biswas</title>
+	 <meta name="Description" content="Full stack Web Developer at Anwesha,IIT Patna 
+Freshman year Computer Science & Engineering student at IIT Patna
+Programming, Computer Science and Physics lover ♥">
+<meta name="Keywords" content="Tameesh Biswas tameesh.in India, IIT Patna IIT">
+
 	 <script type="text/javascript">
 		<!--
 		if (screen.width <= 699) {
@@ -319,7 +324,7 @@
 	  	<div id="work_wrapper">
 	  		<div id="work_title"><h1>Projects</h1></div>
 	  		<div id="work_desc" ><h4>A portfolio of past and present <br>projects.</h4></div>
-	  		<div class="button" id="bt3" onclick="call_slider('./about/index.php#fourthhead',1)">See them-></div>
+	  		<div class="button" id="bt3" onclick="goto('https://github.com/tameeshB')">See them-></div>
 	  	</div>
 	  </div>
 	  <div class="card" id="card4"><!-- OTC-->
@@ -328,7 +333,7 @@
 	  		<h4 id="otc_desc"></h4>
 	  		<h2 id="otc_list">
 	  			<ul type="circle">
-	  				<li>Photography  <a id="photo" onclick="call_slider('./gallery/index.php',1)">&nbsp;|&nbsp; View my Photography portfolio</a></li>
+	  				<li>Photography <a id="photo" onclick="call_slider('https://www.instagram.com/tameeshb/',1)">&nbsp;|&nbsp; View my Photography portfolio</a></li>
 	  				<li>Cycling</li>
 	  				<li>Badminton</li>
 	  				<li>Listening to music!</li>
@@ -341,7 +346,7 @@
 
 	  <div class="card" id="card5"><!-- Gallery-->
 	    <H1 align="center" id="gallery_header">#Gallery</H1>
-	    <center><div class="button" id="gallery_button" onclick="call_slider('./gallery/index.php',1)">View the gallery</div></center>
+	    <center><div class="button" id="gallery_button" onclick="goto('https://www.instagram.com/tameeshb/')">View the gallery</div></center>
 	    <!--take aspect ratio of text with height and make the text to occupy full of the width OR find an alternative way to accomplish the same task-->
 	  
 	  </div>
@@ -354,12 +359,13 @@
 	  		<div id="before">
 	  			<table width="70%" border="0">
 	  			<tr id="first" onclick="goto('mailto:me@tameesh.in')"><td class="first" id="mail_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;me@tameesh.in</td></tr>
-	  			<tr id="second" onclick="goto('//facebook.com/tameesh.biswas')"><td class="first" id="fb_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;\tameesh.biswas</td></tr>
+	  			<tr id="sixth" onclick="goto('https://www.linkedin.com/in/tameeshB')"><td class="first" id="linkedin_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;/in/tameeeshB</td></tr>
+	  			<tr id="seventh" onclick="goto('https://github.com/tameeshB')"><td class="first" id="git_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshB</td></tr>
+					<tr id="second" onclick="goto('//facebook.com/tameeshB')"><td class="first" id="fb_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;\tameeshB</td></tr>
+					<tr id="fourth" onclick="goto('//instagram.com/tameeshb')"><td class="first" id="insta_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshb</td></tr>
 	  			<tr id="third" onclick="goto('//twitter.com/tameeshB')"><td class="first" id="twitter_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshB</td></tr>
-	  			<tr id="fourth" onclick="goto('//instagram.com/tameeshbiswas')"><td class="first" id="insta_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshbiswas</td></tr>
-	  			<tr id="fifth" onclick="goto('//plus.google.com/+TameeshBiswas')"><td class="first" id="gplus_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;+TameeshBiswas</td></tr>
-	  			<tr id="sixth" onclick="goto('https://www.linkedin.com/in/tameesh-biswas-44179659')"><td class="first" id="linkedin_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;in/tameesh-biswas-44179659</td></tr>
-	  			<tr id="seventh"><td class="first" id="git_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;@tameeshbiswas</td></tr>
+					<tr id="fifth" onclick="goto('//plus.google.com/+TameeshBiswas')"><td class="first" id="gplus_logo"></td><td class="second">&nbsp;&nbsp;&nbsp;+TameeshBiswas</td></tr>
+	  			
 	  			</table>
 	  		</div>
 	  	<div id="after">
@@ -371,12 +377,12 @@
 	  			<input id="emailholder" class="contact" type="text" name="email" data="email" value="email" width="200px" \><br>
 	  			<textarea id="messageholder" class="contact" name="message" data="--Your message goes here--" cols="40" rows="5">--Your message goes here--</textarea><br>
 	  			<input id="submitholder" type="submit" value="Send!" style="position:relative;left:0"></left>
-	  			<div id="hogaya" style="width:60%;background:rgba(73, 230, 24,0.7);color:white;border-radius:10px;font-size:30px;opacity:0"><br>Sent!<br><small style="font-size:19px"><br></small><br><br></div>
+	  			<div id="hogaya" style="width:60%;height:0;background:rgba(73, 230, 24,0.7);color:white;border-radius:10px;font-size:30px;opacity:0"><br>Sent!<br><small style="font-size:19px"><br></small><br><br></div>
 	  			
 	  			</form>
 	  			<script>
 	  			function formsend(){//$("small").append($("#emailholder").val());
-	  						$.post("messenger.php",
+	  						$.post("messenger.php?purpose=ajax",
     						{ 
        						
        						 name: $("#nameholder").val(),
@@ -387,7 +393,7 @@
         					//alert("Data: " + data + "\nStatus: " + status);
         					if(status=='success'){
         						$("small").append(data);
-         						$("left").fadeOut(1000,function(){$("#hogaya").animate({opacity:'1'})});
+         						$("left").fadeOut(1000,function(){$("#hogaya").animate({opacity:'1',height:200})});
          					
         					}
     						});
@@ -426,10 +432,13 @@
 	  	   	 	 <div class="h_logo">
 	  	   	 	 </div>
 	  	   	 	 <div class="name" ><h1><i>Tameesh Biswas</i></h1>
-	  	   	 	 </div>
+	  	   	 	 </div style="margin-bottom:10px;padding-bottom:10px;">
 	  	   	 	 <div class="h_name">Tameesh Biswas
 	  	   	 	 </div>
-	  	   	 	 <div class="desc"><h4>Programming, Computer Science and Physics lover ♥ </h4><div class="button" id="bt2" onclick="call_slider('./about/index.php',0)">Know more</div>
+	  	   	 	 <div class="desc">
+						 <h4>&nbsp;&nbsp;&nbsp;&nbsp;Full stack Web Developer at <strong style="color:#a4f994"><i>Anwesha,IIT Patna</i></strong>
+						 <br>&nbsp;&nbsp;&nbsp;&nbsp;Freshman year Computer Science & Engineering student at <strong style="color:#a4f994"><i>IIT Patna</i></strong>
+						 <br>&nbsp;&nbsp;&nbsp;&nbsp;Programming, Computer Science and Physics lover &hearts;</h4><br><div class="button" id="bt2" onclick="call_slider('./about/index.php',0)">Know more</div>
 	  	   	 	 </div>
 
 	  	   	 	 <!--navigation start-->

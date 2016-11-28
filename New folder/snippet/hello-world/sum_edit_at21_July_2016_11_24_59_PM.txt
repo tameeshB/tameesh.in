@@ -1,3 +1,0 @@
-Hi there!<br>
-This is my first post(for non-testing purposes) on what i'm calling 'snippet',<br>
-my very own microblog that I'm building from complete scratch.

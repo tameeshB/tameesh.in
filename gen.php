@@ -1,6 +1,6 @@
 <?PHP
-$servername = "sbg1.freeho.st";
-$username = "tameeshi_gen";
-$password = "Pswd4db.";
-$dbname = "tameeshi_auth";
+$servername = "db4free.net";
+$username = "general_tameesh";
+$password = "Pswd4hosting.";
+$dbname = "general_tameesh";
 ?>

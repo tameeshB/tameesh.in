@@ -23,8 +23,10 @@
   		</script>
 </head>
 <body>
-<div id="container-fluid">
- /*  */
+<div id="container-fluid"><center>
+<br><br><br><br>
+<h1>The gallery page hasn't been  built yet.<br> It (probably) soon will</h1>
+</center>
 </div>
 </body>
 </html>

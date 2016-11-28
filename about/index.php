@@ -195,6 +195,8 @@ Projects</h1><hr align="left" width="60%">
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 <br><br>
 <div class="github-card" data-github="tameeshB/EdVu" data-width="400" data-height="150" data-theme="default"></div>
+<br><br>
+<div class="github-card" data-github="tameeshB/tameesh.in" data-width="400" data-height="150" data-theme="default"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 <br><br>
